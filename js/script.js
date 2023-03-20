@@ -10,6 +10,6 @@ function enterClicked() {
 
   // output
   document.getElementById("address").innerHTML =
-    "Your info is: " + streetName + ", street number " + streetNumber + "."
+    "Your address is: " + streetNumber + ", " + streetName + "."
 }
 
