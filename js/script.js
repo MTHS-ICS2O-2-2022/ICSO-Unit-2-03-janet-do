@@ -3,6 +3,13 @@
 // Created by: Janet Do
 // Created on: Sep 2020
 // This file contains the JS functions for index.html
-function myButtonClicked() {
-  alert("Hello, World!")
+function enterClicked() {
+  // input
+  const streetName = document.getElementById("streetName").value
+  const streetNumber = parseInt(document.getElementById("streetNumber").value)
+
+  // output
+  document.getElementById("address").innerHTML =
+    "Your info is: " + streetName + ", street number " + streetNumber + "."
 }
+
