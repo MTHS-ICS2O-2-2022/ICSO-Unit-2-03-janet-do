@@ -14,13 +14,13 @@ func main() {
 	// input
 	fmt.Println("This program displays a user's address")
 	fmt.Println()
-	fmt.Print("Enter your street name: ")
-	fmt.Scanln(&streetName)
 	fmt.Print("Enter your street number: ")
 	fmt.Scanln(&streetNumber)
+	fmt.Print("Enter your street name: ")
+	fmt.Scanln(&streetName)
 
 	// output
-	fmt.Println("Your Address is:", streetName, streetNumber, ".")
+	fmt.Println("Your Address is:", streetNumber, streetName, ".")
 
 	fmt.Println("\nDone.")
 }
