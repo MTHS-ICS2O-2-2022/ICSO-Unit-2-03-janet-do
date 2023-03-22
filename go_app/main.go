@@ -1,3 +1,7 @@
+// Created by: Janet Do
+// Created on: Sep 2020
+//
+// This program displays a user's address
 package main
 
 import "fmt"
@@ -17,6 +21,6 @@ func main() {
 
 	// output
 	fmt.Println("Your Address is:", streetName, streetNumber, ".")
-  
+
 	fmt.Println("\nDone.")
 }
